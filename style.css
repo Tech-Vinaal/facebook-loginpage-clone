@@ -1,0 +1,132 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-div {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+#logo {
+    font-size: 56px;
+    color: #0b66ff;
+    padding: 20px 0px;
+}
+
+.signup-form {
+    background-color: white;
+    width: 430px;
+    border-radius: 8px;
+}
+
+.form-heading {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+h2 {
+    padding: 5px;
+}
+
+.input-fields {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.half-width {
+    display: flex;
+    width: 48%;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+label {
+    font-size: 12px;
+    color: #606770;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.dob {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.quad-width {
+    width: 31%;
+    display: flex;
+}
+
+.radio-btn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio-lbl {
+    padding: 5px 6px;
+    font-size: 14px;
+}
+
+.radio-in {
+    margin: 0;
+    width: auto;
+}
+
+small {
+    padding-top: 10px;
+    font-size: 11.5px;
+    color: #777;
+
+}
+
+.small-links {
+    text-decoration: none;
+}
+
+.end-btn,
+.acc {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-btn {
+    background-color: #00a400;
+    color: white;
+    padding: 8px 55px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
